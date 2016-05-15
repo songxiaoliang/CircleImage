@@ -104,15 +104,15 @@ public class CircleImage extends ImageView{
         circleX = mWidth / 2;
         circleY = mWidth / 2;
         mRadius = (mWidth - imageBorderWidth * 2) / 2;
-        setMeasuredDimension(mWidth,mWidth);
+        setMeasuredDimension(mWidth, mWidth);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
 
         init();
-        canvas.drawCircle(circleX, circleY, mRadius, mBorderPaint);
         canvas.drawCircle(circleX, circleY, mRadius, mPaint);
+        canvas.drawCircle(circleX, circleY, mRadius + imageBorderWidth / 2, mBorderPaint);
     }
 
     /**
@@ -135,5 +135,4 @@ public class CircleImage extends ImageView{
         drawable.draw(canvas);
         return bitmap;
     }
-
 }
