@@ -32,9 +32,9 @@ CircleImageView
     <co.songlcy.circleimage.view.CircleImage
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:imgBorderColor="@android:color/holo_orange_dark"
+        android:src="@drawable/head"
         app:imgBorderWidth="5dp"
-        
+        app:imgBorderColor="@android:color/holo_orange_dark"
         />
         
 </LinearLayout>
