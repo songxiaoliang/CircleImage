@@ -16,6 +16,7 @@ import android.widget.ImageView;
 
 import co.songlcy.circleimage.R;
 
+
 /**
  * Created by Song on 2016/5/14.
  */
