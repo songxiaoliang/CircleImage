@@ -8,7 +8,6 @@ CircleImageView
 
 ####1.Dependence：
 
-#####Android Studio：
 #####Insert the following dependency to build.gradle file of your project:
     
      compile 'com.song:circleimage:1.0.0'
@@ -19,9 +18,7 @@ CircleImageView
       
     app:imgBorderWidth="5dp" //圆角图边框的宽度
       
-####3.Use code：
-
-#####layout.xml:
+####3.layout.xml:
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
