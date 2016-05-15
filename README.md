@@ -2,7 +2,7 @@
 CircleImageView
 #####for example:
 
-![](https://github.com/songxiaoliang/loadinglayout/blob/master/app/demo/demo.jpg "Gif图加载效果") 
+![](https://github.com/songxiaoliang/CircleImage/blob/master/demo/img_demo.png) 
 
 ## Development Help
 
@@ -10,7 +10,7 @@ CircleImageView
 
 #####Insert the following dependency to build.gradle file of your project:
     
-     compile 'com.song:circleimage:1.0.0'
+     compile 'com.song:circleimage:1.0.1'
       
 ####2.CircleImage support function：
       
