@@ -1,6 +1,5 @@
 # CircleImage
 CircleImageView
-#####Example:
 
 ![](https://github.com/songxiaoliang/CircleImage/blob/master/demo/img_demo.png) 
 
